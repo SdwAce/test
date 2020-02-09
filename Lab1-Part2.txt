@@ -1,0 +1,42 @@
+1. No，we can't remove it. It says:"rm: cannot remove ‘test1’: Is a directory"
+
+2. Yes,we can remove it.
+
+3. rm -r test1/test2
+
+4.HelloWorld
+
+5./home/ugrad/jack123/public_html/cs103/lab1/part1  It shows my current location in the remote main frame of BU.
+
+6.There are w files in test3 folder: test4.txt and test5.txt.
+
+7.
+folder test1: drwxr-xr-x  
+It's a directory that allows owners to list files ,create files,move files and access files in the directory.
+It allows the group of people to whom the directory belongs(cs-ugrad) and all other people in the World wide Web
+to list and access files in the directory but they cannot create or move files in or out.
+
+file test1.txt:  -rw-r--r--
+It's a file that allows the owners to read,copy and write the file, and also allows the group of people to whom the directory belongs(cs-ugrad)
+and all other people in the WorldWideWeb to read and copy the files. No one else can read or write or execute files.
+
+8. Only the owners of the folder.
+
+9. Everyone, including owners ,the group of people to whom the directory belongs(cs-ugrad) and all other people in the World wide Web.
+
+10. test1 and test 2:drwxr-xr-x
+    test1.txt and test2.txt: -rw-r--r--
+
+11. test1:drwxrwxr-x
+    test1.txt:-rwxrwxr--
+    test2: drwxr-x---
+    test2.txt: -rw-r-----
+    
+12.We can see test1,test1.txt and test2.txt but not test2 folder.
+   test 2 directory's access right doesn't have "r"(list files permission) for others(other people in the World Wide Web) 
+   so we cannot see the directory in the browser. But we hold the right to see the other 3 files or folders in the browser.
+
+13. It's all right when I click on test1.txt but it says "forbidden to access" on this server when I click on test2.txt.
+    The reason is that the access right of test2.txt doesn't allow me to access and read the file of test2.txt.
+    
+
